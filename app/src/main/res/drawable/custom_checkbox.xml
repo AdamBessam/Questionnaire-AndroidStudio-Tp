@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/white" />
+                    <stroke android:width="2dp" android:color="@android:color/black" />
+                </shape>
+            </item>
+            <item>
+                <bitmap
+                    android:src="@android:drawable/ic_menu_add"
+                    android:tint="#00FF00" />
+            </item>
+        </layer-list>
+    </item>
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <stroke android:width="2dp" android:color="@android:color/black" />
+        </shape>
+    </item>
+</selector>
